@@ -289,6 +289,7 @@ GEM
     unf_ext (0.0.8.1)
     unicode-display_width (1.8.0)
     verbal_expressions (0.1.5)
+    webrick (1.7.0)
     zeitwerk (2.5.4)
 
 PLATFORMS
@@ -298,6 +299,7 @@ DEPENDENCIES
   github-pages (~> 226)
   jekyll-algolia (= 1.7.1)
   nokogiri (>= 1.13.4)
+  webrick
 
 BUNDLED WITH
    2.3.7

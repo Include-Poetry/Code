@@ -5,4 +5,5 @@ gem 'github-pages', '~> 226'
 group :jekyll_plugins do
   gem 'jekyll-algolia', '1.7.1'
   gem "nokogiri", ">= 1.13.4"
+  gem "webrick"
 end
