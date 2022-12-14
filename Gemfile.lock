@@ -29,14 +29,16 @@ GEM
       http_parser.rb (~> 0)
     ethon (0.15.0)
       ffi (>= 1.15.0)
-    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
     faraday (2.5.2)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.0)
+<<<<<<< Updated upstream
     ffi (1.15.5)
+=======
+>>>>>>> Stashed changes
     ffi (1.15.5-x64-mingw32)
     ffi (1.15.5-x64-unknown)
     filesize (0.2.0)
@@ -227,7 +229,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_portile2 (2.8.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -235,6 +236,9 @@ GEM
     minitest (5.16.3)
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
+=======
+    nokogiri (1.13.8-x64-mingw32)
+>>>>>>> Stashed changes
       racc (~> 1.4)
     nokogiri (1.13.10-x64-mingw32)
       racc (~> 1.4)
@@ -284,8 +288,11 @@ GEM
 
 PLATFORMS
   x64-mingw32
+<<<<<<< Updated upstream
   x64-unknown
   x86_64-linux
+=======
+>>>>>>> Stashed changes
 
 DEPENDENCIES
   github-pages (~> 227)
@@ -294,4 +301,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.3.7
+   2.3.20
